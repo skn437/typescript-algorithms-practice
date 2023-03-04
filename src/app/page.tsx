@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 //? Styles & Animations
-import styles from "@/src/ui/app/Home.module.scss";
+import styles from "@/src/app/Home.module.css";
 
 //? Package
 import Link from "next/link";

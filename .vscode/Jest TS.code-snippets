@@ -1,0 +1,15 @@
+{
+	"Jest Type Import": {
+		"prefix": "jest-ts",
+		"body": [
+			"//? Package",
+			"import type {} from \"@testing-library/jest-dom\";"
+		],
+		"description": "Jest Type Import"
+	},
+	"Cypress Type Import": {
+		"prefix": "cyp-ts",
+		"body": ["//? Package", "import type {} from \"cypress\";"],
+		"description": "Cypress Type Import"
+	}
+}

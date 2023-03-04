@@ -14,10 +14,10 @@ export const metadata: Metadata = {
 };
 
 //? Styles & Animations
-import "@/src/styles/globals.scss";
+import "@/src/app/globals.css";
 
 //? Source
-import { type ChildrenType } from "@/src/types/BasicTypes";
+import { type ChildrenType } from "@/src/app/BasicTypes";
 
 const RootLayout = async (props: ChildrenType) => {
 	const { children } = props;
